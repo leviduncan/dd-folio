@@ -39,7 +39,7 @@ export default function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
                 >
-                    From Concept to Code: I deliver robust Full Stack applications, optimized for performance and user engagement.
+                    From Concept to Code: I deliver robust Full Stack applications, optimized for performance and user engagement. 
                 </motion.p>
 
                 <div className="flex justify-start">
