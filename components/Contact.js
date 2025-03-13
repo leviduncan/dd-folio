@@ -59,7 +59,7 @@ export default function Contact() {
         animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
         transition={{ duration: 0.8, delay: 0.3 }}
       >
-        I’d love to hear from you! Whether you’re interested in collaborating, have questions, or just want to say hi, feel free to reach out.
+        I&apos;d love to hear from you! Whether you&apos;re interested in collaborating, have questions, or just want to say hi, feel free to reach out.
       </motion.p>
 
       <motion.div
