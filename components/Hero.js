@@ -43,7 +43,7 @@ export default function Hero() {
                 <div className="flex justify-center">
                     <ContactButton icon={<FaGithubAlt />} linkUrl={`https://github.com/leviduncan`} />
                     <ContactButton icon={<FaLinkedin />} linkUrl={`https://www.linkedin.com/in/darrinduncan/`} />
-                    <ContactButton icon={<PiReadCvLogoFill />} linkUrl={`https://darrinduncan.com/resume.pdf`} />
+                    <ContactButton icon={<PiReadCvLogoFill />} linkUrl={`/resume.pdf`} />
                 </div>
             </div>
         </section>

@@ -106,7 +106,7 @@ export default function Contact() {
           <ul className="mt-4 text-gray-600 dark:text-gray-400 space-y-2">
             <li>Email: <a href="mailto:darrin@darrinduncan.com" className="text-teal-500 hover:text-teal-700">darrin@darrinduncan.com</a></li>
             <li>LinkedIn: <a href="https://www.linkedin.com/in/darrinduncan/" target="_blank" className="text-teal-500 hover:text-teal-700">https://www.linkedin.com/in/darrinduncan/</a></li>
-            <li>GitHub: <a href="https://github.com/leviduncan" target="_blank" className="text-teal-500 hover:text-teal-700">your-profile</a></li>
+            <li>GitHub: <a href="https://github.com/leviduncan" target="_blank" className="text-teal-500 hover:text-teal-700">https://github.com/leviduncan</a></li>
           </ul>
         </div>
       </motion.div>
