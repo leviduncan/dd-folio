@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# gitHub
+/.github
+
 # production
 /build
 
