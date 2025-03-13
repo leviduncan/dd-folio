@@ -105,7 +105,8 @@ const experience = [
             { name: "HTML" },
             { name: "CSS" },
             { name: "JavaScript" },
-            { name: "UI/UX Design Tools" }
+            { name: "UI/UX Design Tools" },
+            { name: "Adobe ActionScript" }
         ]
     },
     {
@@ -119,7 +120,8 @@ const experience = [
             { name: "HTML" },
             { name: "CSS" },
             { name: "JavaScript" },
-            { name: "UI/UX Design Tools" }
+            { name: "UI/UX Design Tools" },
+            { name: "Adobe ActionScript" }
         ]
     },
     {
@@ -147,7 +149,9 @@ const experience = [
             { name: "HTML" },
             { name: "CSS" },
             { name: "JavaScript" },
-            { name: "UI/UX Design Tools" }
+            { name: "UI/UX Design Tools" },
+            { name: "PHP" },
+            { name: "ColdFusion" }
         ]
     }
 ]

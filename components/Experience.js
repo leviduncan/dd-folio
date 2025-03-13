@@ -48,6 +48,9 @@ function Experience() {
                     <ExperienceCard exp={exp} />
                 </motion.p>
             ))}
+            <motion.a>
+                <a href="https://www.linkedin.com/in/darrinduncan/" target="_blank" rel="noreferrer" className="text-cyan-500 hover:underline">View more on LinkedIn</a> | <a href="/resume.pdf" target="_blank" rel="noreferrer"  className="text-cyan-500 hover:underline">Download Resume</a>
+            </motion.a>
         </div>
         </section>
     );
