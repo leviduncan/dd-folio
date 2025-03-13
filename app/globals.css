@@ -30,27 +30,27 @@ body {
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
 
-/* body:before, .about:before, .contact:before, .projects:before {
+/* html:before {
   content: "";
-  position: absolute;
+ position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
+  right: 0; 
   opacity: .15;
-  background: url("/images/grid.svg") repeat;
-  z-index: -1;
-} */
+  background: url("/images/grid.svg");
+  z-index: 1;
+}
 nav {
   z-index: 100;
-}
+} */
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: var(--accent2)
+  color: #fff;
+  text-transform: uppercase;
+
 }
 
 p {
@@ -135,4 +135,15 @@ p {
 .carousel-container:after {
   right: 0;
   background: linear-gradient(to left, var(--accent3), transparent);
+}
+
+.experience .pills span {
+  color: var(--accent1);
+  font-size: .8rem;
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background: #01d4b81f;
+  margin-top: 10px;
+
 }
