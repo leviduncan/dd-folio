@@ -41,7 +41,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 px-6 max-w-5xl mx-auto text-center"
+      className="py-20 px-6 max-w-5xl mx-auto text-center contact"
       style={{ opacity: isInView ? 1 : 0, transition: "opacity 1s ease" }}
     >
       <motion.h2
@@ -102,7 +102,7 @@ export default function Contact() {
         </div>*/}
 
         {/* Contact Details */}
-        <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md">
+        <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md outline-1 outline-gray-700">
           <ul className="mt-4 text-gray-600 dark:text-gray-400 space-y-2">
             <li>Email: <a href="mailto:darrin@darrinduncan.com" className="text-teal-500 hover:text-teal-700">darrin@darrinduncan.com</a></li>
             <li>LinkedIn: <a href="https://www.linkedin.com/in/darrinduncan/" target="_blank" className="text-teal-500 hover:text-teal-700">https://www.linkedin.com/in/darrinduncan/</a></li>

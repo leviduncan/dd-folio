@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased dark bk-slate-950`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
       >
         {children}
       </body>

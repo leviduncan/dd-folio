@@ -6,7 +6,7 @@ function ProjectCard({ idx, project }) {
         <>
             {/* Project Card */}
             <motion.div key={idx}
-                className="bg-gray-100 dark:bg-gray-800 p-0 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 overflow-hidden"
+                className="bg-gray-100 dark:bg-gray-800 rounded-xl shadow-md outline-1 outline-gray-700 transition-transform duration-300 hover:scale-102 overflow-hidden"
                 whileHover={{ scale: 1.05 }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}

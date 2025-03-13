@@ -30,11 +30,11 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-20 px-6 max-w-5xl mx-auto text-center"
+      className="py-20 px-6 max-w-5xl mx-auto about"
       style={{ opacity: isInView ? 1 : 0, transition: "opacity 1s ease" }}
     >
       <motion.h2
-        className="text-4xl md:text-5xl font-bold"
+        className="text-4xl md:text-5xl font-bold text-cyan-500"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : -20 }}
         transition={{ duration: 0.8 }}

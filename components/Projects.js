@@ -10,7 +10,7 @@ export default function Portfolio() {
       {/* Featured Work Section */}
       <section
         id="projects"
-        className="py-20 px-6 max-w-5xl mx-auto text-center"
+        className="py-20 px-6 max-w-5xl mx-auto text-center projects"
       >
         <motion.h2
           className="text-4xl md:text-5xl font-bold"
