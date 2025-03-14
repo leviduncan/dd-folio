@@ -66,7 +66,7 @@ export default function Navbar() {
           <div className="mt-6">
             <div className="space-y-4">
               <Link href="#about" className="block text-lg font-semibold text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-md transition" onClick={toggleMenu}>About</Link>
-              <Link href="#experience" className="block text-lg font-semibold text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-md transition" onClick={toggleMenu}>Experience</Link>
+              <Link href="#projects" className="block text-lg font-semibold text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-md transition" onClick={toggleMenu}>Experience</Link>
               <Link href="#projects" className="block text-lg font-semibold text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-md transition" onClick={toggleMenu}>Projects</Link>
               <Link href="#contact" className="block text-lg font-semibold text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-md transition" onClick={toggleMenu}>Contact</Link>
             </div>
