@@ -26,7 +26,7 @@ export default function Portfolio() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          Here are some of my favorite projects, where I’ve combined modern design principles, simplicity, and a passion for delivering value to create engaging and effective user experiences.
+          Here are some of my favorite projects, where I&apos;ve combined modern design principles, simplicity, and a passion for delivering value to create engaging and effective user experiences.
         </motion.p>
 
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

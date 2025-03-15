@@ -14,7 +14,7 @@ const LinkedInRecommendations = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}>
-          Over the years, I have had the privilege of working with some incredible professionals who have shared their experiences and feedback. Here are some of the recommendations from my LinkedIn profile, highlighting my skills, work ethic, and the impact I've had on various projects and teams.
+          Over the years, I have had the privilege of working with some incredible professionals who have shared their experiences and feedback. Here are some of the recommendations from my LinkedIn profile, highlighting my skills, work ethic, and the impact I&apos;ve had on various projects and teams.
         </motion.p>
         <motion.a>
             <a href="https://www.linkedin.com/in/darrinduncan/" target="_blank" rel="noreferrer" className="text-cyan-500 hover:underline">View what others are saying on LinkedIn</a>
