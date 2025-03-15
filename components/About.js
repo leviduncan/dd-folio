@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { ExpertiseSection } from "./Expertise";
+import Image from "next/image";
 import GitHubChart from "./GitHubChart";
 import SlickCard from "./SlickCard";
 
@@ -33,22 +34,22 @@ export default function About() {
       className="py-20 px-6 max-w-5xl mx-auto about"
       style={{ opacity: isInView ? 1 : 0, transition: "opacity 1s ease" }}
     >
-      <motion.h2
-        className="text-4xl md:text-5xl font-bold text-cyan-500"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : -20 }}
-        transition={{ duration: 0.8 }}
-      >
-        About Me
-      </motion.h2>
+      
 
       <motion.p
-        className="mt-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed"
+        className="mt-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed flex flex-col md:flex-row"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
         transition={{ duration: 0.8, delay: 0.3 }}
       >
+        <div className="w-full md:w-2/12 mb-4 mx-auto"><Image src="../images/dd.png" className="avatar rounded-full border-2 border-white" width={100} height={100} alt="Darrin Duncan Photo" /></div>
+        <div className="w-full md:w-10/12 ">
+        <h2
+        className="text-4xl md:text-5xl font-bold mb-4">
+        About Me
+      </h2>
         I&apos;m Darrin Duncan, a Full Stack Developer with 8+ years of experience crafting responsive, scalable web applications. My expertise spans diverse environments, from large corporations to established mid-sized and smaller companies, where I&apos;ve honed my skills in JavaScript, React, and Node.js. My focus is on delivering measurable results through data-driven design and robust engineering, consistently driving improvements in user engagement and conversion rates. I prioritize user experience and WCAG compliance, building web applications that are both functional and accessible. I excel in collaborative environments and am committed to delivering high-quality, user-centric, and inclusive digital experiences.
+        </div>
       </motion.p>
 
       <motion.div

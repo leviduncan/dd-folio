@@ -1,7 +1,7 @@
 const experience = [
     {
         id: 1,
-        title: "Full Stack Developer",
+        title: "Front-End Developer",
         company: "Nutrisystem, Inc",
         location: "Fort Washington, PA",
         date: "Dec 2018 - March 2025",

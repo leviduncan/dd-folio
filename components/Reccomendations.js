@@ -57,12 +57,12 @@ function Reccomendations() {
   return (
     <div className="mt-8 grid grid-cols-1 gap-6">
       {linkedin_recommendations.map((rec, idx) => (
-        <motion.div key={idx} className="bg-gray-100 dark:bg-gray-800 rounded-xl shadow-md outline-1 outline-gray-700 transition-transform duration-300 hover:shadow-lg p-6 text-start flex"
+        <motion.div key={idx} className="bg-gray-100 dark:bg-gray-800 rounded-xl shadow-md outline-1 outline-gray-700 transition-transform duration-300 hover:shadow-lg p-6 text-start flex flex-col md:flex-row"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}>
           <div className="w-1/6">
-            <Image src={rec.avatar} alt={`${rec.name}'s avatar`} className="avatar w-16 h-16 rounded-full" width={100} height={100} />
+            <Image src={rec.avatar} alt={`${rec.name}'s avatar`} className="avatar rounded-full border-2 border-white" width={100} height={100} />
           </div>
           <div className="w-5/6">
             <h3 className="text-xl font-semibold">{rec.name}</h3>
