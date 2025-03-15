@@ -65,20 +65,7 @@ export default function About() {
           <ExpertiseSection />
         </div>
         </motion.div>
-      {/* <motion.div
-        className="mt-8 flex justify-center items-center gap-6 flex-wrap"
-        initial={{ opacity: 0, scale: 0.9 }}
-        animate={{ opacity: isInView ? 1 : 0, scale: isInView ? 1 : 0.9 }}
-        transition={{ duration: 0.6, delay: 0.6 }}
-      >
-         <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md outline-1 outline-gray-700 w-9/12">
-          <h3 className="text-lg font-semibold">Tech-stack</h3>
-          <p className="text-gray-600 dark:text-gray-400 text-sm">
-          Leveraging industry-leading technologies to create seamless, interactive, and visually stunning web applications.
-          </p>
-          <GitHubChart />
-        </div>
-      </motion.div> */}
+
     </section>
   );
 }

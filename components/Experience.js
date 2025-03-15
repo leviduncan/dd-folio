@@ -39,18 +39,18 @@ function Experience() {
         </motion.h2>
         <div className="pt-6 max-w-5xl mx-auto text-center">
             {experience.map((exp, idx) => (
-                <motion.p key={idx}
+                <motion.div key={idx}
                     className="mt-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
                     transition={{ duration: 0.8, delay: 0.3 }}
                 >
                     <ExperienceCard exp={exp} />
-                </motion.p>
+                </motion.div>
             ))}
-            <motion.a>
+            <motion.div>
                 <a href="https://www.linkedin.com/in/darrinduncan/" target="_blank" rel="noreferrer" className="text-cyan-500 hover:underline">View more on LinkedIn</a> | <a href="/resume.pdf" target="_blank" rel="noreferrer"  className="text-cyan-500 hover:underline">Download Resume</a>
-            </motion.a>
+            </motion.div>
         </div>
         </section>
     );

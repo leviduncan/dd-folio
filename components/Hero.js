@@ -5,10 +5,13 @@ import { FaGithubAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { PiReadCvLogoFill } from "react-icons/pi";
 import ContactButton from "./ContactButton";
+import Brand from "./Brand";
 
 export default function Hero() {
     return (
         <section className="h-screen flex flex-col justify-center items-center hero">
+        <Brand />
+        <div id="follower"></div>
             <div className="glass p-3">
                 <motion.h1
                     className="text-5xl md:text-6xl font-bold tracking-wide"
