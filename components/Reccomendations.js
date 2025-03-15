@@ -61,11 +61,12 @@ function Reccomendations() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}>
-          <div className="w-1/6">
+          <div className="flex justify-between items-center md:items-start w-full md:w-2/12">
             <Image src={rec.avatar} alt={`${rec.name}'s avatar`} className="avatar rounded-full border-2 border-white" width={100} height={100} />
+            <h3 className="text-xl font-semibold flex md:hidden">{rec.name}</h3>
           </div>
-          <div className="w-5/6">
-            <h3 className="text-xl font-semibold">{rec.name}</h3>
+          <div className="w-full md:w-10/12">
+            <h3 className="text-xl font-semibold hidden md:flex">{rec.name}</h3>
             <h4 className="text-md font-medium mt-2 text-gray-600 dark:text-gray-300">{rec.title}</h4>
             <p className="text-sm mt-2 text-gray-500 dark:text-gray-400">{rec.sub}</p>
             <p className="text-sm mt-4 text-gray-600 dark:text-gray-300">{rec.recommendation}</p>

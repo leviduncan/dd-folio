@@ -42,10 +42,16 @@ export default function About() {
         animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
         transition={{ duration: 0.8, delay: 0.3 }}
       >
-        <div className="w-full md:w-2/12 mb-4 mx-auto"><Image src="../images/dd.png" className="avatar rounded-full border-2 border-white" width={100} height={100} alt="Darrin Duncan Photo" /></div>
+        <div className="flex justify-between items-center md:items-start w-full md:w-2/12 mb-4">
+        <Image src="../images/dd.png" className="avatar rounded-full border-2 border-white" width={100} height={100} alt="Darrin Duncan Photo" />
+        <h2
+        className="text-4xl md:text-5xl font-bold mb-4 flex md:hidden">
+        About Me
+      </h2>
+        </div>
         <div className="w-full md:w-10/12 ">
         <h2
-        className="text-4xl md:text-5xl font-bold mb-4">
+        className="text-4xl md:text-5xl font-bold mb-4 hidden md:flex">
         About Me
       </h2>
         I&apos;m Darrin Duncan, a Full Stack Developer with 8+ years of experience crafting responsive, scalable web applications. My expertise spans diverse environments, from large corporations to established mid-sized and smaller companies, where I&apos;ve honed my skills in JavaScript, React, and Node.js. My focus is on delivering measurable results through data-driven design and robust engineering, consistently driving improvements in user engagement and conversion rates. I prioritize user experience and WCAG compliance, building web applications that are both functional and accessible. I excel in collaborative environments and am committed to delivering high-quality, user-centric, and inclusive digital experiences.
