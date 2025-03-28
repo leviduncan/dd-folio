@@ -15,6 +15,13 @@ const data = [
     },
     {
         "id": 3,
+        "title": "Book Tracker",
+        "content": "BookTracker is a modern web application for tracking your reading progress, managing your book collections, and discovering new books to read.",
+        "link": "https://booktracker.darrinduncan.com/",
+        "img": "/images/book-tracker.png"
+    },
+    {
+        "id": 4,
         "title": "Starrmark Solutions, LLC",
         "content": "A custom software solution for a government contractor, focused on optimizing operations and efficiency.",
         "link": "https://starrmarksolutions.llc/",
