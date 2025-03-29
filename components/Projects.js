@@ -29,7 +29,7 @@ export default function Portfolio() {
           Here are some of my favorite projects, where I&apos;ve combined modern design principles, simplicity, and a passion for delivering value to create engaging and effective user experiences.
         </motion.p>
 
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-8 flex flex-col gap-6">
           {
             data.map((project, idx) => (
               <ProjectCard key={idx} project={project} />
