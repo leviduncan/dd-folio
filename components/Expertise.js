@@ -10,6 +10,7 @@ import {
   FaNode,
   FaNpm,
   FaReact,
+  FaVuejs,
 } from "react-icons/fa";
 import React, { useEffect, useRef, useState } from "react";
 import {
@@ -23,7 +24,7 @@ import {
   SiPhp,
   SiTypescript,
 } from "react-icons/si";
-
+import { RiTailwindCssFill } from "react-icons/ri";
 import { FaSass } from "react-icons/fa6";
 import { TbApi } from "react-icons/tb";
 
@@ -48,6 +49,8 @@ export const expertiseItems = [
   { id: 18, name: "Bootstrap", icon: FaBootstrap, category: "Frontend" },
   { id: 19, name: "Figma", icon: FaFigma, category: "Design" },
   { id: 20, name: "Photoshop", icon: SiAdobephotoshop, category: "Design" },
+  { id: 21, name: "Vue", icon: FaVuejs, category: "Frontend" },
+  { id: 22, name: "Tailwind", icon: RiTailwindCssFill, category: "Frontend" },
 ];
 
 export function ExpertiseSection() {

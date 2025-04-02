@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import Image from 'next/image'
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaSquareGithub } from "react-icons/fa6";
 
 function ProjectCard({ idx, project }) {
     return (
@@ -25,9 +27,14 @@ function ProjectCard({ idx, project }) {
                     <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">
                         {project.content}
                     </p>
-                    <a href={project.link} target="_blank" className="text-teal-500 hover:text-teal-700 mt-4 inline-block">
-                        View Project →
+                    <div className="flex gap-4">
+                    <a href={project.link} target="_blank" className="text-teal-500 hover:text-teal-700 mt-4 inline-block p-4 outline-1 outline-gray-700 rounded-md inner-icon">
+                        <FaExternalLinkAlt />
                     </a>
+                    <a href={project.github} target="_blank" className="text-teal-500 hover:text-teal-700 mt-4 inline-block p-4 outline-1 outline-gray-700 rounded-md inner-icon">
+                        <FaSquareGithub />
+                    </a>
+                    </div>
                 </div>
             </motion.div>
         </>
