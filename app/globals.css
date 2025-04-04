@@ -79,6 +79,14 @@ p {
   font-weight: 400;
 }
 
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/dot-white.png);
+}
+
 .hero::before {
   content: "";
   position: absolute;

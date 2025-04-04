@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Darrin Duncan || Fullstack Portfolio",
+  title: "Darrin Duncan | Fullstack Portfolio",
   description: "I specialize in modern, simplistic designs and universal visual identity, tailored to dedicated markets.",
 };
 
