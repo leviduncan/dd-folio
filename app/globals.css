@@ -84,7 +84,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/images/dot-white.png);
+  background: url(/images/grid-bg.svg);
 }
 
 .hero::before {
@@ -112,6 +112,8 @@ p {
   filter: blur(120px);
   z-index: 0;
 }
+
+
 
 .glass {
   position: relative;
